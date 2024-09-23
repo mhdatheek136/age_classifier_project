@@ -20,7 +20,7 @@ for epoch in range(num_epochs):
     model.train()  
     total_correct = 0
     total_samples = 0
-    total_loss = 0.0  # Initialize total loss
+    total_loss = 0.0  
 
     for images, labels in dataloader:
         optimizer.zero_grad()
